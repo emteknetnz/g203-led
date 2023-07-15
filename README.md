@@ -19,7 +19,7 @@ Inspired by and based on [g810-led](https://github.com/MatMoul/g810-led).
 3) Clone the repostitory `git clone https://github.com/emteknetnz/g203-led.git`
 4) Prepare _virtualenv_: `python3 -m venv ./env`
 5) Install dependencies: `env/bin/pip install -r requirements.txt`
-7) Run (as root): `sudo ./g203-led.py solid 4f2400`
+7) Run (as root): `sudo ./g203-led.py solid 000000`
 
 ## Finding device ID (emteknetnz)
 python3 usb-debug
