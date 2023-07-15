@@ -14,7 +14,9 @@ import binascii
 g203_vendor_id =  0x046d
 g203_prodigy_product_id = 0xc084
 g203_lightsync_product_id = 0xc092
-g203_product_id = g203_prodigy_product_id
+pro_gaming_mouse_product_id = 0xc08c # emteknetnz - i3 mouse
+# g203_product_id = g203_prodigy_product_id
+g203_product_id = pro_gaming_mouse_product_id
 
 default_rate = 10000
 default_brightness = 100

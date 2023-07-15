@@ -11,10 +11,18 @@ Inspired by and based on [g810-led](https://github.com/MatMoul/g810-led).
 
 ## Installation
 
-1) Clone the repository: `git clone https://github.com/smasty/g203-led.git`
-2) Prepare _virtualenv_: `virtualenv ./env`
-3) Install dependencies: `env/bin/pip install -r requirements.txt`
-4) Run (as root): `sudo ./g203-led.py solid 00FFFF`
+~~1) Clone the repository: `git clone https://github.com/smasty/g203-led.git`~~
+~~2) Prepare _virtualenv_: `virtualenv ./env`~~
+
+1) Check version of python on your local `python3 -v`
+2) Ensure venv is install (change python verson if necessary) `sudo apt install python3.10-venv`
+3) Clone the repostitory `git clone https://github.com/smasty/g203-led.git`
+4) Prepare _virtualenv_: `python3 -m venv ./env`
+5) Install dependencies: `env/bin/pip install -r requirements.txt`
+7) Run (as root): `sudo ./g203-led.py solid 00FFFF`
+
+## Finding device ID (steve)
+python3 usb-debug
 
 ## Usage
 
